@@ -7,6 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Cara install dan Run Project
+
+Tutorial:
+
+- git clone repository ini atau download as zip file. Sekiranya, zip file, extract terlebih dahulu.
+- buka CMDER dan gunakan perintah 'cd' untuk pergi ke directory project ini (folder project setelah git clone/extracted).
+- jalankan perintah "composer install".
+- jalankan perintah "php artisan key:generate".
+- Setup .env file untuk database connection (cipta file .env file yang baru berpandukan file .env.example jika didapati hilang).
+- jalankan perintah "npm install".
+- jalankan perintah "npm run dev".
+- jalankan perintah "php artisan serve".
+
+Sekarang anda boleh mengakses sistem ini di http://localhost:8000/.
+Selamat mencuba! Jangan segan silu untuk bertanya. Malu bertanya sesat jalan. Kalau still malu, cuba guna waze~
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
